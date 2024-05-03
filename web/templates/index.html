@@ -1,0 +1,576 @@
+{% extends "base.html" %}
+{% block start %}
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="/static/img/carsoul-3.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Travel the world</h4>
+                            <h1 class="display-3 text-white mb-md-4">Explore the magic of the world</h1>
+                            <a href="/" class="btn btn-primary py-md-3 px-md-5 mt-2">Home</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="/static/img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Travel the world</h4>
+                            <h1 class="display-3 text-white mb-md-4">Let's plan your next adventure</h1>
+                            <a href="/" class="btn btn-primary py-md-3 px-md-5 mt-2">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Get inspire Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">
+                        <h2>
+                            Transform your perspective with every adventure
+                    </h2></h6>
+                    
+                </div>
+            
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="package-item bg-white mb-2">
+                                <img class="img-fluid" src="/static/img/blog-9.jpg" alt="">
+                                <div class="p-4">
+                                    <a class="h5 text-decoration-none" href="/blogs/solo-traveling/">15 Enchanting Destinations for the Solo Traveler</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="package-item bg-white mb-2">
+                                <img class="img-fluid" src="/static/img/blog-10.jpg" alt="">
+                                <div class="p-4">
+                                    <a class="h5 text-decoration-none" href="/blogs/paragliding-destinations/">15 Breathtaking Paragliding Destinations  </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="package-item bg-white mb-2">
+                                <img class="img-fluid" src="/static/img/blog-11.jpg" alt="">
+                                <div class="p-4">
+                                    <a class="h5 text-decoration-none" href="/blogs/traveling-the-world/"> Unveil the Secrets of Travel around the world</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3 pb-3">
+                        <a href="/blogs/" class="btn btn-primary py-md-3 px-md-5 mt-2">Get Inspired</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- smallcontent Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <!-- <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">
+                    <h2>
+                        Unlock your wanderlust with curated itineraries crafted by  travel aficionados.
+                   </h2>
+                </h6>
+                
+            </div>
+            <div class="text-center mb-3 pb-3">
+                <p class="m-0">
+                    " Discovering your next adventure shouldn't be a challenge. Explore our handpicked itineraries and let them inspire your wanderlust, helping you tailor the perfect journey. "
+                </p>    
+            </div> -->
+            <div class="mb-5">
+                <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Top 10 mountains destinations</h4>
+                <div class="bg-white" style="padding: 30px;">
+                    <ul class="list-inline m-0">
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Mount Everest, Nepal/Tibet</a>
+                            
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Patagonia, Argentina/Chile</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Canadian Rockies, Canada
+                                </a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Aoraki / Mount Cook, New Zealand</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>Manali,Himachal Pradesh, India</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>The Alps, Europe</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>Mount Kilimanjaro, Tanzania</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Mount Fuji, Japan</a>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>The Andes, South America</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Mount Elbrus, Russia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+            
+            <div class="mb-5">
+                <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Top 10 Beach Vacations</h4>
+                <div class="bg-white" style="padding: 30px;">
+                    <ul class="list-inline m-0">
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Grace Bay Beach,Turks and Caicos</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Goa, India</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Bora Bora,French Polynesia
+                                </a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Tulum, Mexico</a>
+                          
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>Whitsunday Islands,Australia</a>
+                            
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Playa Norte, Isla Mujeres, Mexico</a>
+                            
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>Whitehaven Beach</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Maldives</a>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i
+                                    class="fa fa-angle-right text-primary mr-2"></i>Oahu,Hawaii</a>
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Fiji</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+            
+        </div>
+    </div>
+
+    
+    <!-- smallcontent End -->
+      
+    <!-- About Start -->
+     <div class="container-fluid py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="/static/img/cyc-2.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Travel the world</h6>
+                        <h1 class="mb-3">We Provide Best Travel Guideness</h1>
+                        <p>"Let us be your compass in the world of travel, guiding you towards unforgettable experiences and hidden gems waiting to be discovered."</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid" src="/static/img/about-3.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="/static/img/about-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- <a href="" class="btn btn-primary mt-1">Book Now</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid pb-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Budget Friendly Tours</h5>
+                            <p class="m-0">We guide which destination is good for visit and budget friendly</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Best Services</h5>
+                            <p class="m-0">We provide best travel guide services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-globe text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Worldwide Coverage</h5>
+                            <p class="m-0">Travel the globe, one destination at a time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+
+    <!-- Destination Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
+                <h1>Explore Top Destination</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/us-1.jpeg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United States</h5>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/uk-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United Kingdom</h5>
+                          
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/aus-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Australia</h5>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/india-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">India</h5>
+                           
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/Indonesia-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Indonesia</h5>
+                           
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/static/img/china-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">China</h5>
+                            
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center mb-3 pb-3">
+                <a href="/destination/" class="btn btn-primary py-md-3 px-md-5 mt-2">EXPLORE ALL DESTINATIONS</a>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Destination Start -->
+  
+
+
+    
+    <!-- Get inspire Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">
+                    <a href="/blogs/world-most-naturally-beautiful-destination/">
+                        <h2>
+                            15 of the World's Most Naturally Beautiful Destination
+                       </h2>
+                    </a>
+                </h6>
+                <!-- <h1>Travel Guide Services</h1> -->
+                
+                    <p class="m-0">
+                    We know finding inspiration for your next trip can be hard - browse itineraries to see what kind of trip you would like
+                    </p>
+                </h3>
+                  
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/paris-2.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Paris, France</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/paris-itineraries/">Visit city of lights and romantic destination</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(500)</small></h6>
+                                    <h5 class="m-0">$500</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/thai_4.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>12 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/thailand-itineraries/">Thailand, known as the "Land of Smiles"</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$4400+</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/goa-1.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Goa</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/goa-itineraries/">Discover goa's beautiful beaches and nightlife</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$1000+</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/portu.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Portugal</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/portugal-itineraries/">Explore the wonders of portugal</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/package-5.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Indonesia</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>5 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/indonesia-itineraries/">Amazing adventure,offering a beautiful blend of culture</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$2000+</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="/static/img/blog-4.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Iceland</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>5 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="/trips/iceland-itineraries/">Discover amazing places of Iceland with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$1500+</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-3 pb-3">
+                <a href="/trips/" class="btn btn-primary py-md-3 px-md-5 mt-2">DISCOVER MORE TRIPS</a>
+            </div>
+            <!-- <div class="row">
+                
+                
+            </div> -->
+        </div>
+    </div>
+    <!-- Get inspire End -->
+
+ 
+
+    
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                <h1>Travel Guide Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-route mx-auto mb-4"></i>
+                        <h5 class="mb-2">Save Time</h5>
+                        <p class="m-0">" Planning a family vacation  for a cultural exploration can be overwhelming. Instead of spending countless hours researching and 
+                            comparing options.Try us "</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
+                        <h5 class="mb-2">Travel</h5>
+                        <p class="m-0">" This word emphasizes the convenience and ease of using the service, which is important for travelers who want to avoid the 
+                            stress of planning their own trip  ">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
+                        <h5 class="mb-2">Your experience</h5>
+                        <p class="m-0">It's a trip based truly on your preferences and created by our Travel guide site, including all aspects of your travel in the destinations
+                            :about,where to visit etc.</p>
+                    </div>
+                    <!-- <a href="" class="btn btn-primary mt-1">More</a> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    
+      
+
+    <!-- Registration Start -->
+    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">visit in 2024</h6>
+                        <h1 class="text-white"><span class="text-primary">Find Best destination</span> For Honeymoon</h1>
+                    </div>
+                    <p class="text-white">Embark on your unforgettable honeymoon journey in 2024 and discover the perfect destination to create 
+                        lifelong memories with your beloved</p>
+                    <!-- <ul class="list-inline text-white m-0">
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                    </ul> -->
+                </div>
+                <!-- <div class="col-lg-5">
+                    <div class="card border-0">
+                        <div class="card-header bg-primary text-center p-4">
+                            <h1 class="text-white m-0">Sign Up Now</h1>
+                        </div>
+                        <div class="card-body rounded-bottom bg-white p-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Select a destination</option>
+                                        <option value="1">destination 1</option>
+                                        <option value="2">destination 1</option>
+                                        <option value="3">destination 1</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="text-center mb-3 pb-3">
+                <a href="/" class="btn btn-primary py-md-3 px-md-5 mt-2"> Visit Us</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Registration End -->
+    
+   {% endblock %}

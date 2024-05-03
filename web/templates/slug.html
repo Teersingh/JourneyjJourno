@@ -1,0 +1,225 @@
+{% extends "base.html" %}
+{% block start %}
+<!-- Carousel Start -->
+<div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="{{ slug_data_insert.bg_img.url }}" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-6" style="max-width: 800px;">
+                        <h1 class="display-4 text-white mb-md-4">{{slug_data_insert.title1}}</h1>
+                        <a href="/" class="text-primary text-uppercase">
+                            <h6 class="text-white text-uppercase mb-md-3">JourneyJourno.com</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+<!-- Blog Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Blog Detail Start -->
+                <div class="pb-3">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="{{ slug_data_insert.body_img1.url }}" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="bg-white mb-3" style="padding: 30px;">
+                        
+                        <h2 class="mb-3">{{ slug_data_insert.heading_1 }}</h2>
+                        <p>{{ slug_data_insert.para_1 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_2 }}</h4>
+                        <p>{{ slug_data_insert.para_2 }}</p>
+                        <img class="img-fluid w-50 float-left mr-4 mb-2" src="{{ slug_data_insert.body_img2.url }}">
+                        <p>{{ slug_data_insert.para_3 }} </p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_3 }}</h4>
+                        <img class="img-fluid w-50 float-right ml-4 mb-2" src="{{ slug_data_insert.body_img3.url }}">
+                        <p>{{ slug_data_insert.para_4 }} </p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_4 }}</h4>
+                        <p>{{ slug_data_insert.para_5 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_5 }}</h4>
+                        <p>{{ slug_data_insert.para_6 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_6 }}</h4>
+                        <img class="img-fluid w-50 float-right ml-4 mb-2" src="{{ slug_data_insert.body_img4.url }}">
+                        <p>{{ slug_data_insert.para_7 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_7 }}</h4>
+                        <img class="img-fluid w-50 float-left mr-4 mb-2" src="{{ slug_data_insert.body_img5.url }}">
+                        <p>{{ slug_data_insert.para_8 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_8 }}</h4>
+                        <p>{{ slug_data_insert.para_9 }}</p>
+
+                        <div class="blog-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid w-100" src="{{ slug_data_insert.body_img1.url }}" alt="">         
+                                </div>
+                        </div>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_9 }}</h4>
+                        <p>{{ slug_data_insert.para_10 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_10 }}</h4>
+                        <img class="img-fluid w-50 float-left mr-4 mb-2" src="{{ slug_data_insert.body_img6.url }}">
+                        <p> {{ slug_data_insert.para_11 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_11 }}</h4>
+                        <p>{{ slug_data_insert.para_12 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_12 }}</h5>
+                        <p>{{ slug_data_insert.para_13 }} </p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_13 }}</h4>
+                        <img class="img-fluid w-50 float-right ml-4 mb-2" src="{{ slug_data_insert.body_img7.url }}">
+                        <p>{{ slug_data_insert.para_14 }} </p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_14 }}</h4>
+                        <p>{{ slug_data_insert.para_15 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_15 }}</h4>
+                        <p>{{ slug_data_insert.para_16 }}</p>
+
+                        <h4 class="mb-3">{{ slug_data_insert.heading_16 }}</h4>
+                        <p>{{ slug_data_insert.para_17 }}</p>
+
+                        <div class="blog-item">
+                                <div class="position-relative">
+                                    <img class="img-fluid w-100" src="{{ slug_data_insert.body_img1.url }}" alt="">         
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!-- Author Bio -->
+                <div class="d-flex flex-column text-center bg-white mb-5 py-5 px-4">
+                    <img src="/static/img/auther_1.jpeg" class="img-fluid mx-auto mb-3" style="width: 100px;">
+                    <h3 class="text-primary mb-3">Ashish Jangid</h3>
+                    <p>I'm here to help you discover your inner explorer.So, pack your bags, embrace the spirit of exploration, 
+                        and embark on a transformative journey that will leave an indelible mark on your soul, long after you return home.</p>
+                    
+                </div>
+
+                <!-- Search Form -->
+                <div class="mb-5">
+                    <div class="bg-white" style="padding: 30px;">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-4" placeholder="Keyword">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-primary border-primary text-white"><i
+                                        class="fa fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category List -->
+                <div class="mb-5">
+                    <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Top Destinations</h4>
+                    <div class="bg-white" style="padding: 30px;">
+                        <ul class="list-inline m-0">
+                            <li class="mb-3 d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>
+                                India</a>
+                
+                            </li>
+                            <li class="mb-3 d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>
+                                United States Of America</a>
+                            </li>
+                            <li class="mb-3 d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i
+                                        class="fa fa-angle-right text-primary mr-2"></i>Europe</a>
+                                
+                            </li>
+                            <li class="mb-3 d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i
+                                        class="fa fa-angle-right text-primary mr-2"></i>France</a>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i
+                                        class="fa fa-angle-right text-primary mr-2"></i>Indonesia</a>
+                              
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Recent Post -->
+                <div class="mb-5">
+                    <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Popular Posts  </h4>
+                    <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                        <img class="img-fluid" src="/static/img/blog-100x100.jpg" alt="">
+                        <div class="pl-3">
+                            <h6 class="m-1">Top 10  destinations to visit as solo in India </h6>
+                            
+                        </div>
+                    </a>
+                    <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                        <img class="img-fluid" src="/static/img/blog-100x100.jpg" alt="">
+                        <div class="pl-3">
+                            <h6 class="m-1">Explore the hidden ancient destination in the world</h6>
+                           
+                        </div>
+                    </a>
+                    <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                        <img class="img-fluid" src="/static/img/blog-100x100.jpg" alt="">
+                        <div class="pl-3">
+                            <h6 class="m-1">Eco-conscious adventures: Top destinations for responsible tourism in 2024</h6>
+                            
+                        </div>
+                    </a>
+                    <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                        <img class="img-fluid" src="/static/img/blog-100x100.jpg" alt="">
+                        <div class="pl-3">
+                            <h6 class="m-1">Packing light, traveling green: Tips for minimizing your environmental impact on your next trip</h6>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+    
+<!-- Carousel Start -->
+<div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="{{ slug_data_insert.bg_img.url }}" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-6" style="max-width: 800px;">
+                        <h1 class="display-4 text-white mb-md-4">{{ slug_data_insert.title1 }}</h1>
+                        <a href="/" class="text-primary text-uppercase">
+                            <h6 class="text-white text-uppercase mb-md-3">JourneyJourno.com</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+
+
+{% endblock %}

@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block start %}
+    <!-- {% load static %} -->
+   
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="{{ continent_data.bg_image.url }}" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-left justify-content-center">
+                        <div class="p-3" style="max-width: 800px;">
+                            <h1 class="display-3 text-white mb-md-4">{{ continent_data.continent_n }}</h1>
+                            <a href="/" class="text-primary text-uppercase">
+                                <h6 class="text-white text-uppercase mb-md-3">JourneyJourno.com</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="mb-5">
+                <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Countries in  {{ continent_data.continent_n }} where you should visit</h4>
+                <div class="bg-white" style="padding: 30px;">
+                    <ul class="list-inline m-0">
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.0 }}</a>
+                            
+                            <a class="text-dark" href="#">{{continent_data.countries.1 }}</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.2 }}
+                                </a>
+                            <a class="text-dark" href="#">{{continent_data.countries.3 }}</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.4 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.5 }}</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.6 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.7 }}</a>
+                        </li>
+                        
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.8 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.9 }}</a>
+                        </li>
+                         <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.10 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.11 }}</a>
+                        </li>
+                        <li class="mb-3 d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.12 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.13 }}</a>
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#">{{continent_data.countries.14 }}</a>
+                            <a class="text-dark" href="#">{{continent_data.countries.15 }}</a>
+                        </li> 
+                        
+                    </ul>
+                </div>
+                
+            </div>   
+            
+        </div>
+    </div>
+
+
+    <!-- Booking End -->
+
+    <!-- Parag Start -->
+    
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <!-- <div class="col-lg-8"> -->
+                    <!-- Blog Detail Start -->
+                    <div class="pb-3">
+                        
+                       
+                        <div class="bg-white mb-3" style="padding: 30px;">
+                            
+                            <h2 class="mb-3">{{ continent_data.title }}</h2>
+                            <p>{{ continent_data.desciption_1 }}</p>
+                            <p>{{ continent_data.desciption_2 }}
+                                </p>
+
+                            <img class="img-fluid w-50 float-left mr-4 mb-2" src="{{ continent_data.body_img1.url }}">
+                            <p>{{ continent_data.desciption_3 }}</p>
+                            
+                            <img class="img-fluid w-50 float-right ml-4 mb-2" src="{{ continent_data.body_img2.url }}">
+                            <p>{{ continent_data.desciption_4 }}</p>
+
+                                 
+                            <p>{{ continent_data.description_5 }}</p>
+                            <p>{{ continent_data.description_6 }}</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Parag End -->
+
+    
+    <!-- Carousel2 Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                
+                    <img class="w-100" src="{{ continent_data.bg_image.url }}" alt="image">
+                
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 800px;">
+                            <h2 class="display-3 text-white mb-md-4">Discover paradise in the heart of {{ continent_data.continent_n }}.</h2>
+                            <a href="/" class="text-primary text-uppercase">
+                                <h6 class="text-white text-uppercase mb-md-3">JourneyJourno.com</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Carousel2 End -->
+  
+{% endblock %}
